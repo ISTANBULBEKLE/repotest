@@ -1,0 +1,10 @@
+function beerOnTheWall (){
+  let bottleBeer = 99;
+
+  while (bootleBeer < 100 && bootleBeer > 0){
+    bootleBeer = bootleBeer -1;
+    console.log(`${bootleBeer} bootles of beer on the wall, ${bootleBeer} bootles of beer. Take one down and pass it around, ${bootleBeer-1} bottles of beer on the wall.`);
+    bootleBeer--;
+  }
+  console.log(`No more bottles of beer on the wall, no more bottles of beer on the wall. Go to the store and buy some more, bottles of beer on the wall.`);
+}
