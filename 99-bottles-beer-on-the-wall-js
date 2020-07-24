@@ -1,4 +1,4 @@
-function beerOnTheWall (){
+function beerOnTheWall ( ){
   let bottleBeer = 99;
 
   while (bootleBeer < 100 && bootleBeer > 0){
